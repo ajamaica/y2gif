@@ -1,0 +1,27 @@
+{
+  "name": "y2gif",
+  "bin": {
+    "youtube-to-gif": "index.js"
+  },
+  "version": "0.0.1",
+  "description": "Creates an animated GIF from a Youtube URL.",
+  "main": "index.js",
+  "author": "Arturo Jamaica <me@arturojamaica.con>",
+  "email": "me@arturojamaica.con",
+  "license": "MIT",
+  "dependencies": {
+    "ansi": "^0.3.0",
+    "bluebird": "^2.3.11",
+    "commander": "^2.5.0",
+    "fluent-ffmpeg": "^2.0.0-rc3",
+    "image-size-stream": "^0.1.1",
+    "pixel-getter": "0.0.3",
+    "sanitize-filename": "^1.1.1",
+    "ytdl-core": "^0.2.4",
+	"tmp" : "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ajamaica/y2gif.git"
+  }
+}
